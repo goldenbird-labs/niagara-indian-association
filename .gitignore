@@ -1,0 +1,21 @@
+node_modules/
+server/node_modules/
+client/node_modules/
+
+# SQLite database (generated at runtime)
+server/nia.db
+
+# Build output
+client/dist/
+
+# Env files
+.env
+.env.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
